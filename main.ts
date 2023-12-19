@@ -1,0 +1,6 @@
+import { greet } from "src/greeter/greet.ts";
+
+// Learn more at https://deno.land/manual/examples/module_metadata#concepts
+if (import.meta.main) {
+  greet();
+}
